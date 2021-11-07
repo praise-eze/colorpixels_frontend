@@ -46,6 +46,7 @@ function App({ Component }) {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/Marketplace" element={<Marketplace/>}/>
+        <Route path="/ClipDescription" element={<ClipDescription/>}/>
         
 }}/>
         

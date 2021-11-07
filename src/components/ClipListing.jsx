@@ -1,5 +1,7 @@
 import React from 'react'
-import {Heading, Link, Stack, Badge, Image, Box, Text, Grid} from '@chakra-ui/react'
+import {Heading, Stack, Badge, Image, Box, Text, Grid} from '@chakra-ui/react'
+import { Link } from "react-router-dom";
+
 
 const ClipListing = () => {
     return (
@@ -8,7 +10,7 @@ const ClipListing = () => {
             <Box boxSize="sm" className="" pt={10}>
                 
                 <Heading fontSize="4xl">Clip Description</Heading>
-                <Link>
+                <Link to="/ClipDescription">
                 <Image pt={5} src="https://i.ytimg.com/vi/fwb9JysHYSI/maxresdefault.jpg" alt="adin and boat"></Image>
                 </Link>
                 <Text pt={2.5} fontSize="2xl">0.2 ETH</Text>

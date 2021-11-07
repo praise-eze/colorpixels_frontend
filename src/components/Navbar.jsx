@@ -19,11 +19,12 @@ const Navbar = () => {
       <Link to="/Marketplace">
       <Button size="sm" variant="ghost"> MARKETPLACE </Button>
       </Link>
-      <Button size="sm" variant="ghost"> LIVE AUCTIONS </Button>
-      <Button size="sm" variant="ghost"> CREATORS </Button> 
+      <Button size="sm" variant="ghost"> LIVE AUCTIONS </Button> 
       <a target="_blank" href="https://discord.gg/pU555KRkJG" >
       <Button size="sm" variant="ghost"> COMMUNITY </Button>  
       </a>
+      <Button size="md" colorScheme="teal" variant="solid"> MINT </Button> 
+
     </Box>
 
     <Spacer/>
