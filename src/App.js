@@ -11,6 +11,9 @@ import CreatorPage from "./components/CreatorPage";
 import {extendTheme} from "@chakra-ui/react"
 import "@fontsource/nunito"
 import Footer from "./components/Footer"
+import { Routes, Route, Link } from "react-router-dom";
+
+
 
 // 1. Using a style object
 const theme = extendTheme({
@@ -38,7 +41,16 @@ function App({ Component }) {
       {/* <Home/> */}
       {/* <Marketplace/> */}
       {/* <ClipDescription/> */}
-      <CreatorPage/>
+      {/* <CreatorPage/> */}
+
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/Marketplace" element={<Marketplace/>}/>
+        
+}}/>
+        
+      </Routes>
+
       <Footer/>
     </ChakraProvider>
   );

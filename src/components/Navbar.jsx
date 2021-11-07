@@ -2,21 +2,28 @@ import React from 'react'
 import { Flex, Spacer, Box, Image} from "@chakra-ui/react"
 import { Button } from "@chakra-ui/react"
 import logo from "../colorpixelslogo.png"
+import { Link } from "react-router-dom";
+
 
 
 const Navbar = () => {
     return (
         <div>
             <Flex>
+            <Link to="/">
             <Box pt={50} pr={5} pl={44}>
             <Image w="75%" src={logo}></Image>
             </Box>
+            </Link>
     <Box pt={50} px={0} >
-      
+      <Link to="/Marketplace">
       <Button size="sm" variant="ghost"> MARKETPLACE </Button>
+      </Link>
       <Button size="sm" variant="ghost"> LIVE AUCTIONS </Button>
-      <Button size="sm" variant="ghost"> CREATORS </Button>   
+      <Button size="sm" variant="ghost"> CREATORS </Button> 
+      <a target="_blank" href="https://discord.gg/pU555KRkJG" >
       <Button size="sm" variant="ghost"> COMMUNITY </Button>  
+      </a>
     </Box>
 
     <Spacer/>
