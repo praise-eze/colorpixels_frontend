@@ -37,8 +37,8 @@ function App({ Component }) {
       <Navbar></Navbar>
       {/* <Home/> */}
       {/* <Marketplace/> */}
-      <ClipDescription/>
-      {/* <CreatorPage/> */}
+      {/* <ClipDescription/> */}
+      <CreatorPage/>
       <Footer/>
     </ChakraProvider>
   );
