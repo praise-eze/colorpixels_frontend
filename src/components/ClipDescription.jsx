@@ -1,10 +1,12 @@
 import React from 'react'
-import {Heading, Image, Text, Button, Box} from '@chakra-ui/react'
+import {Heading, Image, Text, Button, Box, Grid, Flex} from '@chakra-ui/react'
 
 
 const ClipDescription = () => {
     return (
         <div>
+        <Flex>
+        <Grid templateColumns="repeat(2, 1fr)" gap={1}>
         <Heading pb={50} pt={50}>Back</Heading>
         <Box boxSize="4xl" >
             <Heading>Clip Description</Heading>
@@ -16,6 +18,8 @@ const ClipDescription = () => {
             <Text fontSize="2xl">Rarity</Text>
             <Button>Buy</Button>
             </Box>
+        </Grid>
+        </Flex>
         </div>
     )
 }

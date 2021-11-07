@@ -35,9 +35,9 @@ function App({ Component }) {
     <ChakraProvider theme={theme}>
       
       <Navbar></Navbar>
-      <Home/>
+      {/* <Home/> */}
       {/* <Marketplace/> */}
-      {/* <ClipDescription/> */}
+      <ClipDescription/>
       {/* <CreatorPage/> */}
       <Footer/>
     </ChakraProvider>

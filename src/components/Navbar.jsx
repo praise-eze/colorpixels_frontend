@@ -9,14 +9,14 @@ const Navbar = () => {
         <div>
             <Flex>
             <Box pt={50} pr={5} pl={44}>
-            <Image src={logo}></Image>
+            <Image w="75%" src={logo}></Image>
             </Box>
-    <Box pt={50} px={10} >
+    <Box pt={50} px={0} >
       
-      <Button size="lg" variant="ghost"> MARKETPLACE </Button>
-      <Button size="lg" variant="ghost"> LIVE AUCTIONS </Button>
-      <Button size="lg" variant="ghost"> CREATORS </Button>   
-      <Button size="lg" variant="ghost"> COMMUNITY </Button>  
+      <Button size="sm" variant="ghost"> MARKETPLACE </Button>
+      <Button size="sm" variant="ghost"> LIVE AUCTIONS </Button>
+      <Button size="sm" variant="ghost"> CREATORS </Button>   
+      <Button size="sm" variant="ghost"> COMMUNITY </Button>  
     </Box>
 
     <Spacer/>

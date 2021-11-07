@@ -36,7 +36,7 @@ const Marketplace = () => {
             <div >
                 <Flex>
                 <Box>
-                <Tabs pl={40} px={40}>
+                <Tabs pl={40} px={40} >
                     <TabList>
                         <Tab fontSize="2xl">Popular</Tab>
                         <Tab fontSize="2xl">Staff-Picked</Tab>
@@ -48,7 +48,7 @@ const Marketplace = () => {
                 </Tabs>
                 </Box>
 
-                <Box pl={700}>
+                <Box pl={500}>
                 <Menu>
                 <MenuButton as={Button} rightIcon={<ChevronDownIcon />}>
                     Date
