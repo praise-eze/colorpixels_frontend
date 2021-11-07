@@ -1,28 +1,30 @@
 import React from 'react'
-import { Flex, Spacer, Box, Container, Grid, HStack, Heading } from "@chakra-ui/react"
+import { Flex, Spacer, Box, Image, Container, Grid, HStack, Heading } from "@chakra-ui/react"
 import { Button, ButtonGroup } from "@chakra-ui/react"
+import logo from "../colorpixelslogo.png"
+
 
 const Navbar = () => {
     return (
         <div>
             <Flex>
-            <Box pt={25} pr={5} pl={44}>
-            <Heading >ColorPixels</Heading>
+            <Box pt={50} pr={5} pl={44}>
+            <Image src={logo}></Image>
             </Box>
-    <Box pt={25} px={5} >
+    <Box pt={50} px={10} >
       
-      <Button size="lg" variant="ghost"> Marketplace </Button>
-      <Button size="lg" variant="ghost"> Live Auctions </Button>
-      <Button size="lg" variant="ghost"> Creators </Button>   
-      <Button size="lg" variant="ghost"> Community </Button>  
+      <Button size="lg" variant="ghost"> MARKETPLACE </Button>
+      <Button size="lg" variant="ghost"> LIVE AUCTIONS </Button>
+      <Button size="lg" variant="ghost"> CREATORS </Button>   
+      <Button size="lg" variant="ghost"> COMMUNITY </Button>  
     </Box>
 
     <Spacer/>
     
-    <Box pt={25} px={40} >
-      <Button className="align-text-top" mr='5' >Log In</Button>
+    <Box pt={50} px={40} >
+      <Button className="align-text-top" mr='5' size="lg" >Log In</Button>
       
-      <Button className="align-text-top" colorScheme="teal" >Sign Up</Button>
+      <Button className="align-text-top" colorScheme="teal" size="lg"  >Sign Up</Button>
     </Box>
     
     </Flex>
