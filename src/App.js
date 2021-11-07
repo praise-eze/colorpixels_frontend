@@ -4,15 +4,20 @@ import "./App.css";
 import Navbar from "./components/Navbar"
 
 import Home from "./components/Home"
-import { ChakraProvider } from "@chakra-ui/react"
+import { ChakraProvider, Container } from "@chakra-ui/react"
+import Marketplace from "./components/Marketplace";
+
 
 
 
 function App({ Component }) {
   return (
     <ChakraProvider>
+      
       <Navbar></Navbar>
-      <Home/>
+      {/* <Home/> */}
+      <Marketplace/>
+    
     </ChakraProvider>
   );
 }
