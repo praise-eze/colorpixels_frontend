@@ -1,6 +1,6 @@
 import React from 'react'
 import Slider from "./Slider"
-import { Text, Container, Box, Image, VStack, StackDivider, Grid, Heading } from "@chakra-ui/react"
+import { Text, Container, Center, Box, Image, VStack, StackDivider, Grid, Heading } from "@chakra-ui/react"
 
 
 
@@ -10,8 +10,8 @@ const Home = () => {
         <div>
             <Slider/>
         </div>
-        <Grid templateColumns="repeat(2, 1fr)" gap={1}>
-            <Box boxSize="sm" className="">
+        <Grid templateColumns="repeat(2, 1fr)" gap={1} pl={40} pr={40}>
+            <Box boxSize="lg" className="">
                 <Image src="https://i.ytimg.com/vi/fwb9JysHYSI/maxresdefault.jpg" alt="adin and boat"></Image>
             </Box>
             <div>
@@ -19,16 +19,17 @@ const Home = () => {
                 <Text fontSize="2xl">Explore the marketplace to buy or bid for any clip. Each clip is minted as an NFT, which means you can publically own that clip! Each NFT lives on the Ethereum blockchain.</Text>
             </div>
 
-            <Box boxSize="sm">
-                <Image src="https://i.ytimg.com/vi/EVCB69WzoqU/maxresdefault.jpg" alt="rice and zias"></Image>
-            </Box>
             <div>
                 <Heading fontSize="4xl">Become a creator and sell custom clips</Heading>
                 <Text fontSize="2xl">When you sell a clip, it gets shown on your creator profile. This profile lets you create a community around your creator platform.</Text>
             </div>
-
+            <Center>
+            <Box boxSize="lg">
+                <Image src="https://i.ytimg.com/vi/EVCB69WzoqU/maxresdefault.jpg" alt="rice and zias"></Image>
+            </Box>
+            </Center>
  
-        <Box boxSize="sm">
+        <Box boxSize="lg">
                 <Image src="https://clips-media-assets2.twitch.tv/AT-cm%7C247853416-social-preview.jpg" alt="nadeshot fortnite"></Image>
             </Box>
             <div>

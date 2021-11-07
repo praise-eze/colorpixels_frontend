@@ -6,20 +6,20 @@ const Navbar = () => {
     return (
         <div>
             <Flex>
-            <Box>
-            <Heading>ColorPixels</Heading>
+            <Box pt={25} pr={5} pl={44}>
+            <Heading >ColorPixels</Heading>
             </Box>
-    <Box >
+    <Box pt={25} px={5} >
       
-      <Button size="md" variant="ghost"> Marketplace </Button>
-      <Button size="md" variant="ghost"> Live Auctions </Button>
-      <Button size="md" variant="ghost"> Creators </Button>   
-      <Button size="md" variant="ghost"> Community </Button>  
+      <Button size="lg" variant="ghost"> Marketplace </Button>
+      <Button size="lg" variant="ghost"> Live Auctions </Button>
+      <Button size="lg" variant="ghost"> Creators </Button>   
+      <Button size="lg" variant="ghost"> Community </Button>  
     </Box>
 
     <Spacer/>
     
-    <Box >
+    <Box pt={25} px={40} >
       <Button className="align-text-top" mr='5' >Log In</Button>
       
       <Button className="align-text-top" colorScheme="teal" >Sign Up</Button>

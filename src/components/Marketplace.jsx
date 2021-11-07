@@ -13,12 +13,14 @@ import {
     MenuIcon,
     MenuCommand,
     MenuDivider,
-  } from "@chakra-ui/react"
+  } from "@chakra-ui/react";
+  import ClipListing from "./ClipListing";
+  import ClipDescription from "./ClipDescription";
 
 const Marketplace = () => {
     return (
         <div>
-            <Container>
+            <Container pt={125} pb={125}>
             <Heading>Browse by streamer, game, or category</Heading>
             <Input placeholder="Search" size="lg"></Input>
             </Container>
@@ -38,6 +40,8 @@ const Marketplace = () => {
                     </TabList>
                 </Tabs>
             </div>
+
+            <ClipListing></ClipListing>
         </div>
     )
 }

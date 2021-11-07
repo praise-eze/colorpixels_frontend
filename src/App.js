@@ -4,8 +4,10 @@ import "./App.css";
 import Navbar from "./components/Navbar"
 
 import Home from "./components/Home"
-import { ChakraProvider, Container } from "@chakra-ui/react"
+import { ChakraProvider} from "@chakra-ui/react"
 import Marketplace from "./components/Marketplace";
+import ClipDescription from "./components/ClipDescription";
+import CreatorPage from "./components/CreatorPage";
 
 
 
@@ -15,8 +17,10 @@ function App({ Component }) {
     <ChakraProvider>
       
       <Navbar></Navbar>
-      {/* <Home/> */}
-      <Marketplace/>
+      <Home/>
+      {/* <Marketplace/> */}
+      {/* <ClipDescription/> */}
+      {/* <CreatorPage/> */}
     
     </ChakraProvider>
   );
