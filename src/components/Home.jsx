@@ -1,6 +1,6 @@
 import React from 'react'
 import Slider from "./Slider"
-import { Text, Container, Center, Box, Image, VStack, StackDivider, Grid, Heading } from "@chakra-ui/react"
+import { Text, Center, Box, Image, Grid, Heading } from "@chakra-ui/react"
 
 
 

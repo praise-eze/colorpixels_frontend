@@ -7,14 +7,7 @@ import {
     MenuItem,
     //ChevronDownIcon,
     Button,
-    MenuItemOption,
-    MenuGroup,
-    MenuOptionGroup,
-    MenuIcon,
-    MenuCommand,
-    MenuDivider,
     InputGroup,
-    InputLeftAddon,
     InputLeftElement
   } from "@chakra-ui/react";
   import { SearchIcon, ChevronDownIcon } from '@chakra-ui/icons'

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, VStack, Image, Box, Button, Flex, Spacer, Text, Heading  } from "@chakra-ui/react"
+import { Container, Image, Box, Button, Flex, Text, Heading  } from "@chakra-ui/react"
 import mrbeast from "../mrbeast2.png"
 
 

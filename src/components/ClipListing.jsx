@@ -1,5 +1,5 @@
 import React from 'react'
-import {Heading, Button,Link, Stack, Badge, Image, Box, Text, Grid} from '@chakra-ui/react'
+import {Heading, Link, Stack, Badge, Image, Box, Text, Grid} from '@chakra-ui/react'
 
 const ClipListing = () => {
     return (

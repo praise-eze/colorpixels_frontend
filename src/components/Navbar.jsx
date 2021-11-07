@@ -1,6 +1,6 @@
 import React from 'react'
-import { Flex, Spacer, Box, Image, Container, Grid, HStack, Heading } from "@chakra-ui/react"
-import { Button, ButtonGroup } from "@chakra-ui/react"
+import { Flex, Spacer, Box, Image} from "@chakra-ui/react"
+import { Button } from "@chakra-ui/react"
 import logo from "../colorpixelslogo.png"
 
 
