@@ -1,11 +1,11 @@
 import React from 'react'
-import {Heading, Input, Container, Tabs, TabList, Tab, Center} from "@chakra-ui/react"
+import {Heading, Box, Flex, Input, Container, Tabs, TabList, Tab, Center} from "@chakra-ui/react"
 import {
     Menu,
     MenuButton,
     MenuList,
     MenuItem,
-    ChevronDownIcon,
+    //ChevronDownIcon,
     Button,
     MenuItemOption,
     MenuGroup,
@@ -17,7 +17,7 @@ import {
     InputLeftAddon,
     InputLeftElement
   } from "@chakra-ui/react";
-  import { SearchIcon } from '@chakra-ui/icons'
+  import { SearchIcon, ChevronDownIcon } from '@chakra-ui/icons'
 
   import ClipListing from "./ClipListing";
   import ClipDescription from "./ClipDescription";
@@ -40,18 +40,36 @@ const Marketplace = () => {
 
         
 
-            <div>
-                
-                <Tabs>
+            <div >
+                <Flex>
+                <Box>
+                <Tabs pl={40} px={40}>
                     <TabList>
-                        <Tab>Popular</Tab>
-                        <Tab>Staff-Picked</Tab>
-                        <Tab>Music</Tab>
-                        <Tab>Gaming</Tab>
-                        <Tab>Sports</Tab>
-                        <Tab>Indie</Tab>
+                        <Tab fontSize="2xl">Popular</Tab>
+                        <Tab fontSize="2xl">Staff-Picked</Tab>
+                        <Tab fontSize="2xl">Music</Tab>
+                        <Tab fontSize="2xl">Gaming</Tab>
+                        <Tab fontSize="2xl">Sports</Tab>
+                        <Tab fontSize="2xl">Indie</Tab>
                     </TabList>
                 </Tabs>
+                </Box>
+
+                <Box pl={700}>
+                <Menu>
+                <MenuButton as={Button} rightIcon={<ChevronDownIcon />}>
+                    Date
+                </MenuButton>
+                <MenuList>
+                    <MenuItem>Today</MenuItem>
+                    <MenuItem>This Week</MenuItem>
+                    <MenuItem>This Month</MenuItem>
+                    <MenuItem>This Year</MenuItem>
+                    <MenuItem>All Time</MenuItem>
+                </MenuList>
+                </Menu>
+                </Box>
+                </Flex>
             </div>
 
             <ClipListing></ClipListing>

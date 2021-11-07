@@ -16,12 +16,12 @@ const Home = () => {
             </Box>
             <div>
                 <Heading fontSize="4xl">Start a collection of your favorite highlights</Heading>
-                <Text fontSize="2xl" pt={5}>Explore the marketplace to buy or bid for any clip. Each clip is minted as an NFT, which means you can publically own that clip! Each NFT lives on the Ethereum blockchain.</Text>
+                <Text fontSize="3xl" pt={5}>Explore the marketplace to buy or bid for any clip. Each clip is minted as an NFT, which means you can publically own that clip! Each NFT lives on the Ethereum blockchain.</Text>
             </div>
 
             <div>
                 <Heading fontSize="4xl">Become a creator and sell custom clips</Heading>
-                <Text fontSize="2xl" pt={5}>When you sell a clip, it gets shown on your creator profile. This profile lets you create a community around your creator platform.</Text>
+                <Text fontSize="3xl" pt={5}>When you sell a clip, it gets shown on your creator profile. This profile lets you create a community around your creator platform.</Text>
             </div>
             <Center>
             <Box boxSize="800">
@@ -34,7 +34,7 @@ const Home = () => {
             </Box>
             <div>
             <Heading fontSize="4xl">Earn Pixels</Heading>
-            <Text fontSize="2xl" pt={5} pb={5}>Earn Pixels everytime you get upvoted by the community. Pixels give you access to exclusive content!</Text>
+            <Text fontSize="3xl" pt={5}>Earn Pixels everytime you get upvoted by the community. Pixels give you access to exclusive content!</Text>
         </div>
         </Grid>
         </div>
