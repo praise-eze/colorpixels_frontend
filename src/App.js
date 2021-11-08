@@ -4,11 +4,11 @@ import "./App.css";
 import Navbar from "./components/Navbar"
 
 import Home from "./components/Home"
-import { ChakraProvider} from "@chakra-ui/react"
+import { ChakraProvider } from "@chakra-ui/react"
 import Marketplace from "./components/Marketplace";
 import ClipDescription from "./components/ClipDescription";
 import CreatorPage from "./components/CreatorPage";
-import {extendTheme} from "@chakra-ui/react"
+import { extendTheme } from "@chakra-ui/react"
 import "@fontsource/nunito"
 import Footer from "./components/Footer"
 import { Routes, Route, Link } from "react-router-dom";
@@ -21,9 +21,9 @@ const theme = extendTheme({
     global: {
       "body": {
         background: "#0a0943",
-      
+
       },
-      
+
     },
   },
   fonts: {
@@ -36,7 +36,7 @@ const theme = extendTheme({
 function App({ Component }) {
   return (
     <ChakraProvider theme={theme}>
-      
+
       <Navbar></Navbar>
       {/* <Home/> */}
       {/* <Marketplace/> */}
@@ -44,15 +44,14 @@ function App({ Component }) {
       {/* <CreatorPage/> */}
 
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/Marketplace" element={<Marketplace/>}/>
-        <Route path="/ClipDescription" element={<ClipDescription/>}/>
-        
-}}/>
-        
+        <Route path="/" element={<Home />} />
+        <Route path="/Marketplace" element={<Marketplace />} />
+        <Route path="/ClipDescription" element={<ClipDescription />} />
+
+
       </Routes>
 
-      <Footer/>
+      <Footer />
     </ChakraProvider>
   );
 }

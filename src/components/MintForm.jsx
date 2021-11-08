@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const MintForm = () => {
-    return (
-        <div>
-            
-        </div>
-    )
+function MintForm() {
+	return <div></div>;
 }
 
-export default MintForm
+export default MintForm;

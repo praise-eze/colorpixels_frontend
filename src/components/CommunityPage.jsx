@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const CommunityPage = () => {
-    return (
-        <div>
-            
-        </div>
-    )
+function CommunityPage() {
+	return <div></div>;
 }
 
-export default CommunityPage
+export default CommunityPage;
